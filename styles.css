@@ -1,0 +1,63 @@
+*{
+	padding: 10px;
+	margin: 0 60px;
+	
+}
+.main{
+display:flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 200px;
+text-align: center;
+left: 40px;
+}
+.display-text{
+	text-align: center;
+}
+.btn{
+	margin-left: 500px;
+}
+#red{
+	display: inline;
+	left: 100px;
+	position: absolute;
+	height: 100px;
+	width: 200px;
+	background-color: red;
+}
+#blue{
+	position: absolute;
+	display: inline;
+	left: 250px;
+	height: 100px;
+	width: 200px;
+	background-color: blue;
+}
+#green{
+	display: inline;
+	left: 350px;
+	position: absolute;
+	height: 100px;
+	width: 200px;
+	background-color: green;
+}
+#yellow{
+	display: inline;
+	position: absolute;
+	height: 100px;
+	left: 550px;
+	width: 200px;
+	background-color: yellow;
+}
+#black{
+	position: absolute;
+		display: inline;
+	height: 100px;
+	width: 150px;
+	background-color: black;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
